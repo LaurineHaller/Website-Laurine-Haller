@@ -1,0 +1,36 @@
+body{
+    
+   color:black; 
+   font:12px/1.1em Jungka Book;
+    background:white;
+}
+
+.left-pane, .right-pane {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.left-pane {
+    width: 70vw;
+    min-width: 35vw;
+    right: 0;
+    position: fixed;
+    background-color: 
+        white;}
+right-pane {
+    left: 0;
+    width: 30vw;
+    background: 
+white;
+position: fixed;
+    
+   .descr-text{
+    padding: 5px 15px 5px 10px;
+    height: 100vh;
+    width: 30vw;
+    top: 0;
+    position: fixed;
+    font-size: 10pt;
+    line-height: 12pt;
+    text-align: left;}
