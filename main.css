@@ -1,0 +1,135 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    color:black; 
+    font:12px/1.1em Jungka Book; 
+}
+
+.header {
+    height: 50px;
+    font:20px/1.1em Jungka Book; 
+}
+
+.categories {
+    width: 29vw;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    word-spacing: 50px;
+    border-bottom: solid 1px black;
+    color:red; 
+    font:20px/1.1em Jungka Book;
+}
+
+.about {
+    text-align: right;
+    padding-right: 1vw;
+    margin: 5px;
+    padding: 5px;
+    color: red;
+    font:20px/1.1em Jungka Book;
+    z-index: 1;
+}
+
+left-pane {position: fixed;
+    top: 50px;
+    left: 0px;
+    width: 70vw;
+    height: 100vh;
+}
+
+a {text-decoration:none;}
+
+.text {position: fixed;
+    top: 80px;
+    left: 0px;
+    width: 28vw;
+    height: 100vh;
+    margin: 5px;
+    padding: 5px;
+}
+
+.button_brick {
+    margin-top:110px;
+    margin-left: 100px;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+.button_brick_text {
+    text-align: center;
+    padding: 5px;
+    color: red;
+    display:block;
+    font:12px/1.1em Jungka Book;
+}
+
+.button_brick_link:visited .button_brick_text {
+      color: white;
+}
+
+.button_brick:hover {
+background-color: red;
+}
+
+.button_brick:hover .button_brick_text {   
+    color: white;
+}
+
+.right-pane {position: fixed;
+    overflow: auto;
+    width: 70vw;
+    height: 800px;
+    left:30vw;
+    background: ; 
+    top: 0%;
+    padding: 5px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: -1;   
+}
+
+.allimages {margin: 5px;
+    position:relative;
+    /*border: solid red 2px;*/
+    width: 45%;
+    align-self: float;  
+}
+
+img {object-fit:contain;
+    width: 100%;
+}
+
+.background_png {
+    margin: 5px;
+    width: 70vw;
+    height: auto;
+    left:30vw; 
+    background: black;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: -1;
+}
+
+.referenz-box {
+    background-color:red;
+    height: 50px;
+    width: 240px; 
+    margin: 5vw;
+    margin-top: 75px;
+    border-radius: 50px;
+}
+
+.referenz-text {
+    text-align: center;
+    padding: 5px;
+    display:block;
+    font:20px/1.1em Jungka Book;
+    color: white; 
+}
+
