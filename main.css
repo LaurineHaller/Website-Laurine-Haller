@@ -1,0 +1,124 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    color:black; 
+    font:12px/1.1em Jungka Book; 
+}
+
+a {text-decoration:none;}
+
+.header {
+    height: 50px;
+    background-color: ;
+    font:16px/1.1em Jungka Book; 
+    margin-left: 100px;
+}
+
+.restart {
+    background-color:;
+    float: left;
+    width: 50px;
+    height: 25px;
+    margin: 5px;
+    color: black;
+    font:16px/1.1em Jungka Book;
+}
+.restart:hover {
+    font-style: italic;
+color:red;}
+
+.categories {
+    background-color:;
+    width: 500px;
+    margin: 395px;
+    margin-top: 5px;
+    padding: 5px;
+    word-spacing: 50px;
+    color:black; 
+    text-align: ;
+    display:block;
+    font:16px/1.1em Jungka Book;
+}
+
+.categories:hover {
+    font-style: italic;
+    color: red;}
+
+.right-pane {position: fixed;
+    overflow: auto;
+    width: 100vw;
+    height: 800px;
+    background; 
+    top: 0%;
+    padding: 5px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: -1;   
+    background-color: ;
+}
+
+.allimages {margin: 5px;
+    margin-top: 30px;
+    position:relative;
+    border: solid red 2px;
+    width: 35%;
+    align-self:center;  
+}
+
+img {object-fit:contain;
+    width: 100%;
+}
+.allimages_png {
+    margin: 5px;
+    margin-top: 30px;
+    position:relative;
+    border: solid red 2px;
+    width: 45%;
+    float: left;
+    align-self:center;  }
+
+.background_png {
+    margin: 5px;
+    width: 95%;
+    height: auto;
+    left:30vw; 
+    background: black;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: -1;
+}
+
+.button_About {
+    background-color: white;
+    border: solid 1px red;
+    position: absolute;
+    left:50%;
+    top: 50%;
+    -webkit-transform: translateX(-50%)
+    translateY(-50%);
+    transform:translateX(-50) translateY (-50);
+    width: 62px;
+    height: 23px;
+    z-index: 3;
+    align-self: center;
+}
+.button_About_text {
+    text-align: center;
+    padding: 5px;
+    color: red;
+    display:block;
+    font:16px/1.1em Jungka Book;
+    margin-top:0px;
+}
+.button_About_link:visited .button_About_text {
+      color: red;
+}
+
+.button_About:hover {
+    background-color: red;
+    border-color: white;
+}
+.button_About:hover .button_About_text {color: white;
+}
